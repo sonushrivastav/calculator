@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Arimo:wght@600&display=swap');
+
+*
+{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-family: 'Arimo', sans-serif;
+}
+ section {
+     background-color:rgb(17, 26, 31);
+     min-height: 100vh;
+     width:100%;
+     display: flex;
+     align-items: center;
+     justify-content: center;
+ }
+
+ .container {
+     width:90%;
+     max-width:400px ;
+     background-color:rgba(53, 52, 52, 0.137);
+     border-radius: 10px;
+     overflow: hidden;
+ }
+
+  .display {
+      background-color:antiquewhite;
+      height: 100px;
+      width: 100%;
+      text-align: right;
+      padding: 20px;
+      font-size:30px;
+      position: relative;
+  }
+
+  .display-1{
+      opacity: .4;
+      font-size: 20px;
+      height: 20px;
+      overflow: hidden;
+  }
+
+   .temp-result{
+       position: absolute;
+       font-size: 30px;
+       bottom: 0;
+       left: 10px;
+       opacity: .4;
+   }
+
+   .all-buttons {
+       color: whitesmoke;
+       display: grid;
+       grid-template: repeat(4, 1fr) / repeat(4, 1fr);
+   }
+
+    .button {
+      border:  0.1px solid rgba(92,92,92,0.137);
+      height: 100px;
+      width: 100%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 30px;
+      cursor: pointer;
+    }
+    .button:hover{
+        background-color: rgb(30, 43, 46);
+    }
+
+    .btn-0{
+        grid-column: 1/3;
+    }

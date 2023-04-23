@@ -59,7 +59,7 @@ html {
    }
 
     .button {
-      border:  0.2px solid rgba(92,92,92,0.137);
+      border:  0.1px solid rgba(92,92,92,0.137);
       height: 100px;
       width: 100%;
       display: flex;
